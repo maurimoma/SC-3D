@@ -28,6 +28,9 @@ header p{
     text-align: center;
     justify-content: center;
 }
+header p:hover{
+    transform: scale(1.3);
+}
 header p span{
     font-weight: 800;
 }
