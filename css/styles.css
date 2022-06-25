@@ -307,6 +307,28 @@ footer{
     padding: 5%;
     height: 90vh;
 }
+.equipos__info--titulo{
+    animation-name: tituloColorido;
+    animation-duration: 4s;
+    animation-iteration-count: 4;
+}
+@keyframes tituloColorido{
+    0%{
+        color: white;
+    }
+    25%{
+        color:aqua;
+    }
+    50%{
+        color: cornflowerblue;
+    }
+    75%{
+        color: #f68084;
+    }
+    100%{
+        color: white;
+    }
+}
 .equipos__info--subitulo{
     text-align: center;
 }
