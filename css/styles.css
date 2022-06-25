@@ -543,4 +543,10 @@ footer{
         "nosotros__destacado--subtitulo1 nosotros__destacado--subtitulo2 nosotros__destacado--subtitulo3"
         "nosotros__destacado--texto1 nosotros__destacado--texto2 nosotros__destacado--texto3";
     }
+    .nosotros__destacado--icono1{
+        transform: translateY(-30px);
+    }
+    .nosotros__destacado--icono2{
+        transform: rotate(90deg);
+    }
 }
