@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/styles.css">
     <title>SC 3d - Impresoras 3D</title>
 </head>
@@ -39,26 +40,16 @@
 
             <input type="submit" value="Enviar mensaje" id="campo_formulario">
         </section>
-        <section class="contacto__redes">
-            <h3 class="contacto__redes--subtitulo">Lorem pisum meter</h3>
-            <div id="contacto__redes--caja">
-                <a href="" ><img class="contacto__redes--icono" src="../img/facebook.png" alt="Facebook"></a>
-                <a href="" ><img class="contacto__redes--icono" src="../img/instagram.png" alt="Facebook"></a>
-                <a href=""><img class="contacto__redes--icono" src="../img/linkedin.png" alt="Instagram"></a>
-            </div>
+        <div id="footer_iconos">
+            <i class="bi-linkedin"></i>
+            <i class="bi-instagram"></i>
+            <i class="bi-youtube"></i>
+    </div>
         </section>
     </main>
     <footer>
-        <div id="footer_buscador">
-            <h2 class="footer_buscador__subtitulo">A subtitle</h2>
-            <form class="footer_buscador__form">
-                <label for=""></label>
-                <input type="email" placeholder="Search">
-                <input type="submit"
-            </form>
-        </div>
-        <div id="menu_footer">
-            <div id="menu_footer__secciones">
+        <div id="contenedor__footer">
+            <div id="menu_footer">
                 <h2 class="menu_footer__subtitulos">A subtitle</h2>
                 <ul class="menu_footer__enlaces">
                     <li>Item 1</li>
@@ -66,33 +57,22 @@
                     <li>Item 3</li>
                 </ul>
             </div>
-            <div id="menu_footer__secciones">
-                <h2 class="menu_footer__subtitulos">A subtitle</h2>
-                <ul class="menu_footer__enlaces">
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                </ul>
-            </div>
-            <div id="menu_footer__secciones">
-                <h2 class="menu_footer__subtitulos">A subtitle</h2>
-                <ul class="menu_footer__enlaces">
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                </ul>
+            <div id="footer_suscripcion">
+                <h2>A subtitle</h2>
+                <form class="footer_suscripcion__form">
+                    <label for></label>
+                    <input type="email" placeholder="Suscribirme" class="footer_suscripcion__placeholder">
+                    <input type="submit"
+                </form>
             </div>
         </div>
-        <div>
-            <div id="menu_footer__iconos">
-                <p class="menu_footer__iconos--texto">Lorem ipsum, dolor sit amet consectetur.</p>
-                <a href=""><img class="menu_footer__iconos--imagen" src="../img/facebook.png" alt="Linkedin"></a>
-                <a href=""><img class="menu_footer__iconos--imagen" src="../img/instagram.png" alt="Instagram"></a>
-                <a href=""><img class="menu_footer__iconos--imagen" src="../img/linkedin.png" alt="Facebook"></a>
-            </div>
-            <div>
-                <a class="menu_footer__boton_footer" href="./contacto.html">Ayuda</a>
-            </div>
+        <div id="footer_iconos">
+                <i class="bi-linkedin"></i>
+                <i class="bi-instagram"></i>
+                <i class="bi-youtube"></i>
+        </div>
+        <div id="footer_contacto">
+            <a href="./pages/contacto.html">Contacto</a>
         </div>
     </footer>
 </body>
